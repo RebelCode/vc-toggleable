@@ -1,0 +1,11 @@
+{
+  "name": "vc-toggleable",
+  "version": "0.1.0",
+  "description": "Toggleable component",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "RebelCode",
+  "license": "ISC"
+}
