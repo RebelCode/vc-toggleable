@@ -6,9 +6,10 @@
 </head>
 <body>
 <div id="app">
+    <code>{{ store }}</code>
     <toggle :toggleable="toggleable" inline-template>
-        <span @click="setState(!toggleable.isOn)">
-            {{ toggleable.isOn ? 'On' : 'Off' }}
+        <span @click="setState(!isOn)">
+            {{ isOn ? 'On' : 'Off' }}
         </span>
     </toggle>
 </div>

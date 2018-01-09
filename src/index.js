@@ -1,4 +1,4 @@
-export function CfToggle (Vue) {
+export function CfToggleable (Vue) {
     return Vue.extend({
         props: {
             toggleable: {
