@@ -1,5 +1,5 @@
 {
-  "name": "vc-toggleable",
+  "name": "@rebelcode/vc-toggleable",
   "version": "0.1.0",
   "description": "Toggleable component",
   "main": "src/index.js",
