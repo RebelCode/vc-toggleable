@@ -14,6 +14,8 @@ Toggleable component implements logic responsible for getting Toggle model state
 
 `isOn` - is toggle model state set to `true`
 
+Also, `toggleable` property receives object, instance of [FunctionalToggleable](https://github.com/RebelCode/std-lib/blob/task/functional-toggleable/src/FunctionalToggleable.js)
+
 ## Developing
 Run `npm install` to install all dev dependencies.
 
