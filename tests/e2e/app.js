@@ -1,7 +1,7 @@
 import {CfToggleable} from './../../src/index';
 
 import Vue from 'vue';
-import {Toggleable} from './../../node_modules/std-lib/src/FunctionalToggleable'
+import {FunctionalToggleable} from '@rebelcode/std-lib'
 
 new Vue({
     el: '#app',
@@ -11,7 +11,7 @@ new Vue({
                 switcher: true
             },
 
-            toggleable: new Toggleable((newValue) => {
+            toggleable: new FunctionalToggleable((newValue) => {
                 this.store.switcher = newValue
             }, () => {
                 return this.store.switcher
